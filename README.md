@@ -2,7 +2,7 @@
 A small program that will analyze user integer input in order to give correct statistics of the numbers.
 
 ## Description
-This is a basic program created and used for the purpose to get the user familar with user input manipulation and validation. It gets a user to input a series of 10 integers within a given range in order to then tell them the average, highest, and lowest integer they entered into the program. However, if the user places an integer in the program that is outside of the specified boundaries, the code will flag it as invalid input and ask for a replacement. Once all ten integers are entered into the program, it will display the average, largest number, and lowest number.
+This is a basic program created and used for the purpose to get the user familiar with user input manipulation and validation. It gets a user to input a series of 10 integers within a given range in order to then tell them the average, highest, and lowest integer they entered into the program. However, if the user places an integer in the program that is outside of the specified boundaries, the code will flag it as invalid input and ask for a replacement. Once all ten integers are entered into the program, it will display the average, largest number, and lowest number.
 ### Features
 This program has sever number analyzing features:
 1. It keeps track of the running total throughout the runtime of the program
@@ -27,7 +27,7 @@ In order to use this code, you will need a Java Compiler (linked the Support sec
 
 ## Usage
 1. Click compile and run on your IDE of choice
-2. The computer will display a welcome message and ask the user to input a number between a certain range (defaut is 0-100)
+2. The computer will display a welcome message and ask the user to input a number between a certain range (default is 0-100)
     - if the user inputs an out of bounds digit, the program will flag it, display an error message and ask for another input
 3. Once the computer has received ten integers from the user, it will begin the final piece of its code
 4. The computer will display the smallest number entered
@@ -45,7 +45,7 @@ The user is able to customize two key elements of this program
 * The number of integers to gather
     - To change this value
         1. Find the line that reads (int i = 0; i < 9; i++)
-        2. Change the evalulation statement from 1 < 9, to whatever upper boundary your desire NOTE: The upper boundary will gather 1 more than the digit you enter, example: if your enter 9 then the program will gather 10 integers, enter 11 and the program will gather 12
+        2. Change the evaulation statement from 1 < 9, to whatever upper boundary your desire NOTE: The upper boundary will gather 1 more than the digit you enter, example: if your enter 9 then the program will gather 10 integers, enter 11 and the program will gather 12
 
 
 ## Support
@@ -54,9 +54,11 @@ If the code does not work as intended in the above segment please contact me at:
 * 111 111-1111
 
 ## Roadmap
-There are several changes and addtions I would like to add to this program:
+There are several changes and additions I would like to add to this program:
 1. I would like to add a feature that allows the user to exit the program early and still give them the analysis of the data already gathered
 2. A feature that would give more of an analysis of the data
     - such as including: median, mode, and amount of prime numbers entered 
 3. A re-run feature would allow a user to use the program multiple times before terminating, allowing easier user experience if they have more than a single set of number to analyze
+4. Create a variable called "numbersToEnter" that way the program accomadates to the user's needs with every itteration
+5. Create a variable called "lowerBound" and "upperBound" to help set the boundaries of the user's data without having to edit the code itself
 
