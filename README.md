@@ -54,8 +54,9 @@ If the code does not work as intended in the above segment please contact me at:
 * 111 111-1111
 
 ## Roadmap
-There are sever changes and addtions I would like to add to this program:
+There are several changes and addtions I would like to add to this program:
 1. I would like to add a feature that allows the user to exit the program early and still give them the analysis of the data already gathered
 2. A feature that would give more of an analysis of the data
     - such as including: median, mode, and amount of prime numbers entered 
+3. A re-run feature would allow a user to use the program multiple times before terminating, allowing easier user experience if they have more than a single set of number to analyze
 
