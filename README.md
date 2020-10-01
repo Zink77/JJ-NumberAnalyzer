@@ -53,6 +53,8 @@ If the code does not work as intended in the above segment please contact me at:
 * blankblank@blankmail.com
 * 111 111-1111
 
+The IDE that I use to write, edit, and compile my code is located at: https://www.jetbrains.com/idea/
+
 ## Roadmap
 There are several changes and additions I would like to add to this program:
 1. I would like to add a feature that allows the user to exit the program early and still give them the analysis of the data already gathered
